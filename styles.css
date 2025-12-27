@@ -1,0 +1,68 @@
+html {
+    font-size: 12px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    width: 3rem;
+}
+
+button {
+    background: #4CAF4F;
+}
+
+.years, .tim {
+    color: #4CAF4F;
+}
+
+.brand {
+    width: 9rem;
+}
+
+.brands {
+    width: 5rem;
+}
+
+.icon {
+    width: 4rem;
+}
+
+.mobile-img {
+    width: 20rem;
+    height: 15rem;
+}
+
+.reinvent {
+    color: #4CAF4F;
+}
+
+.mobile-login {
+    width: 20rem;
+}
+
+.stat-icon {
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
+.toyota {
+    width: 17.5rem;
+    height: 10.75rem;
+    margin-bottom: 7.7rem;
+    margin-right: 2rem;
+    margin-left: .5rem;
+}
+
+.caring {
+    width: 15rem;
+    margin: 1rem;
+}
+
+.email-icon {
+    position: relative;
+    right: 2rem;
+}
