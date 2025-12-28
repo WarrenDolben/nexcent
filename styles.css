@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-size: 12px;
 }
@@ -20,11 +26,11 @@ button {
 }
 
 .brand {
-    width: 9rem;
+    width: 2rem;
 }
 
 .brands {
-    width: 5rem;
+    width: 2rem;
 }
 
 .icon {
@@ -32,8 +38,8 @@ button {
 }
 
 .mobile-img {
-    width: 20rem;
-    height: 15rem;
+    width: 12.5rem;
+    height: 12.5rem;
 }
 
 .reinvent {
@@ -41,7 +47,7 @@ button {
 }
 
 .mobile-login {
-    width: 20rem;
+    width: 12.5rem;
 }
 
 .stat-icon {
@@ -50,9 +56,9 @@ button {
 }
 
 .toyota {
-    width: 17.5rem;
-    height: 10.75rem;
-    margin-bottom: 7.7rem;
+    width: 10rem;
+    height: 15rem;
+    margin-top: 2.25rem;
     margin-right: 2rem;
     margin-left: .5rem;
 }
