@@ -8,6 +8,15 @@ html {
     font-size: 12px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+.wrapper {
+    overflow-x: hidden;
+    position: relative;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -21,7 +30,7 @@ button {
     background: #4CAF4F;
 }
 
-.years, .tim {
+.years, .tim, .reinvent {
     color: #4CAF4F;
 }
 
@@ -38,16 +47,13 @@ button {
 }
 
 .mobile-img {
-    width: 12.5rem;
-    height: 12.5rem;
-}
-
-.reinvent {
-    color: #4CAF4F;
+    width: 7.5rem;
+    height: 7.5rem;
 }
 
 .mobile-login {
-    width: 12.5rem;
+    width: 7.5rem;
+    height: 7.5rem;
 }
 
 .stat-icon {
@@ -56,11 +62,12 @@ button {
 }
 
 .toyota {
-    width: 10rem;
-    height: 15rem;
-    margin-top: 2.25rem;
+    position: relative;
+    top: -2rem;
+    width: 7.5rem;
+    height: 7.5rem;
+    margin-left: 2rem;
     margin-right: 2rem;
-    margin-left: .5rem;
 }
 
 .caring {
@@ -71,4 +78,9 @@ button {
 .email-icon {
     position: relative;
     right: 2rem;
+}
+
+.meet {
+    position: relative;
+    left: -9.75rem;
 }
