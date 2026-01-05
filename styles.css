@@ -57,8 +57,8 @@ button {
 }
 
 .stat-icon {
-    width: 2.25rem;
-    height: 2.25rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 .toyota {
@@ -77,10 +77,176 @@ button {
 
 .email-icon {
     position: relative;
-    right: 2rem;
+    right: 1.5rem;
 }
 
 .meet {
     position: relative;
     left: -9.75rem;
+}
+
+.footer-text {
+    font-size: .6rem;
+}
+
+.footer-sig {
+    position: relative;
+    left: -3rem;
+}
+
+.footer-sect {
+    position: relative;
+    left: 0;
+}
+
+.footer-input {
+    width: 100%;
+}
+
+input::placeholder {
+    font-size: .6rem;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+    .nav-link {
+        font-size: 1.2rem;
+    }
+    
+    .top-img-container {
+        width: 30rem;
+    }
+
+    .lessons-insights, .years, .clients, .pixelgrade, .demo, .caring-hdr, .design {
+        font-size: 2.5rem;
+    }
+
+    .local {
+        font-size: 2rem;
+        width: 75vw;
+    }
+
+    .years-text, .clients-text, .pixelgrade-text, .local-text, .caring-text, .design-text {
+        font-size: 1.1rem;
+    }
+
+    .brand {
+        width: 2.5rem;
+    }
+
+    .mobile-img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .stat-icon {
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+
+    .stat-type {
+        font-size: 1.5rem;
+    }
+
+    .mobile-login {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .toyota {
+        width: 20rem;
+        height: 20rem;
+        top: -1rem;
+    }
+
+    .toyota-text {
+        font-size: 1.2rem;
+    }
+
+    .meet {
+        left: -.75rem;
+    }
+
+    .footer-text {
+        font-size: 1.2rem;
+    }
+
+    .footer-input {
+        padding: .25rem;
+    }
+
+    input::placeholder {
+        font-size: .75rem;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+     .nav-link {
+        font-size: 1.2rem;
+    }
+    
+    .top-img-container {
+        width: 30rem;
+    }
+
+    .lessons-insights, .years, .clients, .pixelgrade, .demo, .caring-hdr, .design {
+        font-size: 2.5rem;
+    }
+
+    .local {
+        font-size: 2rem;
+        width: 75vw;
+    }
+
+    .years-text, .clients-text, .pixelgrade-text, .local-text, .caring-text, .design-text {
+        font-size: 1.1rem;
+    }
+
+    .brand {
+        width: 2.5rem;
+    }
+
+    .mobile-img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .stat-icon {
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+
+    .stat-type {
+        font-size: 1.5rem;
+    }
+
+    .mobile-login {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .toyota {
+        width: 20rem;
+        height: 20rem;
+        top: -1rem;
+    }
+
+    .toyota-text {
+        font-size: 1.2rem;
+    }
+
+    .meet {
+        left: -.75rem;
+    }
+
+    .footer-text {
+        font-size: 1.5rem;
+    }
+
+    .footer-input {
+        padding: .5rem;
+    }
+
+    input::placeholder {
+        font-size: 1rem;
+    }
 }
